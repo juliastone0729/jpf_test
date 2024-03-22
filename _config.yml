@@ -8,33 +8,34 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://cdil.lib.uidaho.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /fire-lines
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/thecdil/fire-lines
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Fire Lines
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Exploring the Legacy of 1910's Great Fire in the Northwest
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "20th century fire policy tried to draw a hard line between humans and fire. Indigenous knowledge is leading 21st century science to a deeper understanding of fire’s kinship with human communities. A project of the Confluence Lab."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho;history;inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Isabel Marlens
+publication_date: 2023
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: fire-lines-resources
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -50,10 +51,25 @@ metadata: demo-compoundobjects-metadata
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
+organization-name: "Center for Digital Inquiry and Learning (CDIL), University of Idaho Library"
 organization-link: https://cdil.lib.uidaho.edu/
 organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+
+
+# Updates collection
+collections:
+  essay:
+    sort_by: order
+    output: true
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code
+# if present, used to add analytics during "production" build only
+# google-analytics-id: "UA-74844011-1"
+# google-cse-id: "002151703305773322890:1pu3smhw1t8"
 
 ##########
 # ROBOTS EXCLUDE
@@ -69,7 +85,7 @@ organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
 sass:
   style: compressed

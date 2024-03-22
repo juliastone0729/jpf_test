@@ -1,12 +1,13 @@
 ---
-# basic layout intended for metadata only type item, designed for linking to external source
 layout: item/item-page-base
 ---
 
-<div class="mb-4 text-center">
+<div class="mb-4">
 
     <div class="my-2">
-        {% include item/download-buttons.html %}
+        
+        {% if page.object_location %}<a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-lg btn-outline-primary">Link to {% if page.format contains 'pdf' %}PDF{% else %}Item{% endif %}</a>{% endif %}
+        
     </div>
 
 </div>
