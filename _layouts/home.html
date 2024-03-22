@@ -15,14 +15,14 @@
     
         }
         #title-box {
-            margin-top: 6em; 
+            margin-top: 3em; 
             margin-left: 1em;
             margin-right: 1em;
         }
         #toc-box {
             position: absolute;
-            left: 1em;
-            bottom: 1em;
+            right: 1em;
+            bottom: 4em;
         }
         #gallery-box {
             position: absolute;
@@ -39,14 +39,14 @@
 
         <div id="home-banner" class="container-fluid mt-3 mb-5">
 
-            <div id="title-box" class="col-md-4 py-3 px-5 text-white bg-dark bg-opacity-75 rounded">
+            <div id="title-box" class="col-md-5 col-lg-4 py-3 px-5 text-white bg-dark bg-opacity-75 rounded">
                 <h1 class="display-2">{{ site.title }}</h1>
                 {% if site.tagline %}<p class="mb-0">{{ site.tagline }}</p>{% endif %}
             </div>
 
-            <a id="toc-box" class="py-3 px-5 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/00_firelines.html' | relative_url }}" >Read the Essay &raquo;</a>
+            <a id="toc-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/00_firelines.html' | relative_url }}" >Read the Essay &raquo;</a>
 
-            <a id="gallery-box" class="py-3 px-5 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}" >View the Gallery &raquo;</a>
+            <a id="gallery-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}" >View the Gallery &raquo;</a>
             
         </div>
     </main>
