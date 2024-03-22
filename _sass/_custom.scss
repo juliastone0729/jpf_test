@@ -25,7 +25,7 @@ body {
     margin-bottom: 2rem;
 }
 @include media-query($on-desktop) {
-    .essay-title {
+    .essay-title, .essay-text {
         margin-left: 5rem;
     }
 }
