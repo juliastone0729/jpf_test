@@ -18,17 +18,17 @@ source-code: https://github.com/thecdil/fire-lines
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: RTI Exhibit
+title: Judean Pillar Figurine Exhibit
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Judean Pillar Figurines
+tagline: Exploring Guardian Iconography of the Judean Pillar Figurine
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "This digital exhibit for the Badè Museum of Biblical Archaeology presents one Judean Pillar Figurine that has been recolorized using Reflectance Transformation Imaging and Decorrelation Stretch Imaging."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: figurines;iconography;religion;sculpture
+keywords: figurines;iconography;reflectance transformation imaging
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Lauren McCormick
-publication_date: 2023
+publication_date: 2024
 
 ##########
 # COLLECTION SETTINGS
