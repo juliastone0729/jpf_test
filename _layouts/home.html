@@ -22,12 +22,22 @@
         #toc-box {
             position: absolute;
             right: 2em;
-            bottom: 3em;
+            bottom: 6em;
+        }
+        #jpf-box {
+            position: absolute;
+            right: 2em;
+            bottom: 4em;
         }
         #gallery-box {
             position: absolute;
             right: 2em;
-            bottom: 1em;
+            bottom: 2em;
+        }
+        #rti-box {
+            position: absolute;
+            right: 2em;
+            bottom: 0em;
         }
     </style>
   </head>
@@ -44,9 +54,13 @@
                 {% if site.tagline %}<p class="mb-0">{{ site.tagline }}</p>{% endif %}
             </div>
 
-            <a id="toc-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/00_firelines.html' | relative_url }}" >Read the Essay &raquo;</a>
+            <a id="toc-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/00_firelines.html' | relative_url }}" >About &raquo;</a>
+
+            <a id="jpf-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}" >Judean Pillar Figurines &raquo;</a>
 
             <a id="gallery-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}" >View the Gallery &raquo;</a>
+
+            <a id="rti-box" class="py-2 px-3 display-6 fs-2 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}" >RTI Laboratory &raquo;</a>
             
         </div>
     </main>
