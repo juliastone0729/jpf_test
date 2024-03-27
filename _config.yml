@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://cdil.lib.uidaho.edu
+url: https://juliastone0729.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /fire-lines
+baseurl: /jpf_test
 # location of code, the full url to your github repository
-source-code: https://github.com/thecdil/fire-lines
+source-code: https://github.com/juliastone0729/jpf_test
 
 ##########
 # SITE SETTINGS
